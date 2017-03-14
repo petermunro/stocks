@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.stock-cell {
+    display: block;
+    width: 5em;
+    height: 5em;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0.2em;
+    font-family: "_OpenSansBrick", "Fira Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    border: 1px solid black;
+}
+
+.stock-cell:hover {
+    border: 1px solid lightgray;
+}
+.stock-cell .name,
+.stock-cell .delta,
+.stock-cell .price {
+    display: block;
+}
+
+.stock-cell .name {
+    font-weight: 700;
+}
+
+
+.direction-up {
+    background-color: rgb(124, 171, 112);
+}
+
+.direction-stay {
+    background-color: #817F7B;
+    transition: background-color 0.7s ease-out;
+}
+
+.direction-down {
+    background-color: rgb(190, 105, 86);
+}

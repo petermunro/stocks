@@ -1,0 +1,8 @@
+	{
+		print "{"
+		print "\tstock: \'" $1 "\',"
+		print "\tdelta: " $3 ","
+		print "\tprice: " $2
+		print "},"
+	}
+
